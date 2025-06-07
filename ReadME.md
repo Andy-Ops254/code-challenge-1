@@ -18,3 +18,8 @@ This repo holds files for the first code challenge in phase 1.
 
 ## Simplified Money Transaction Fee Estimator
 
+1. Prompts the user to enter the amount of money they wish to send. Convert this input to a number.
+2. Takes the amountToSend as a number.
+3. Calculates the transaction fee based on the 1.5% rule, ensuring it adheres to the minimum (KES 10) and maximum (KES 70) fee limits.
+4. Calculates the total amount that will be debited (amount to send + transaction fee).
+5. Prints the results to the console.
