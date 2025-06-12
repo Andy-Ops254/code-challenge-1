@@ -8,17 +8,18 @@ function calculateChaiIngridients() {
     const Tealeaves=1;
     const sugar=1;
     
-    //calculating ingridient amounts
-    let totalWater=number*water;
-    let totalmilk=number*milk;
-    let totalTeaLeaves= number * Tealeaves;
-    let totalsugar= number* sugar;
+// calculation of values
+let totalWater= water*number;
+let totalmilk= milk*number;
+let totalTealeaves= Tealeaves*number;
+let totalsugar=sugar*number;
 
-    //printing values
-    console.log(`water needed: ${totalWater}ml`);
-    console.log(`milk needed: ${totalmilk}ml`);
-    console.log(`Tea leaves needed: ${totalTeaLeaves}tablespoons`);
-    console.log(`sugar needed: ${totalsugar}tablespoons`);
+//print the values on to the console
+console.log(`water :${totalWater}`)
+console.log(`milk: ${totalmilk}`)
+console.log(`Tea leaves: ${totalTealeaves}`)
+console.log(`Sugar(Sukari) ${totalsugar}`)
+
 }
 //call function
-calculateChaiIngridients();
+calculateChaiIngridients()
